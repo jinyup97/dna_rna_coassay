@@ -1,0 +1,39 @@
+---
+title: "DNA-RNA"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+    theme: default
+    css: test.css
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(paletteer)
+library(ggplot2)
+```
+
+
+# [DNA summary]{.my-dna}
+
+
+# [DNA QC]{.my-dna}
+
+# [Reads Information]{.my-dna}
+
+# [Example Profiles of Ratio Plots]{.my-dna}
+
+# [Phylogenetics]{.my-dna}
+
+# [RNA QC]{.my-rna}
+
+# [Typical Marker]{.my-rna}
+
+# [CNV Infering]{.my-rna}
+
+# [Coassay]{.my-coassay}
+
+# [About]{.my-about}
+
